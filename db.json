@@ -1,0 +1,619 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin1",
+      "password": "A123456",
+      "name": "Ali Admin",
+      "email": "admin1@mail.com",
+      "role": "superadmin",
+      "avatar": "/Images/av1.png",
+      "token": "token_admin_1_abc123"
+    },
+    {
+      "id": "2",
+      "username": "admin2",
+      "password": "A123456",
+      "name": "Sara Manager",
+      "email": "admin2@mail.com",
+      "role": "manager",
+      "avatar": "/Images/av2.png",
+      "token": "token_admin_2_def456"
+    },
+    {
+      "id": "3",
+      "username": "admin3",
+      "password": "A123456",
+      "name": "Reza Editor",
+      "email": "admin3@mail.com",
+      "role": "editor",
+      "avatar": "/Images/av3.png",
+      "token": "token_admin_3_xyz789"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "1",
+      "name": "Dr. Ahmadi",
+      "specialty": "React",
+      "email": "ahmadi@mail.com",
+      "avatar": "/Images/av2.png"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Mohammadi",
+      "email": "mohammadi@mail.com",
+      "specialty": "Node.js",
+      "avatar": "/Images/av2.png"
+    },
+    {
+      "id": "3",
+      "name": "Sara Karimi",
+      "email": "karimi@mail.com",
+      "specialty": "UI/UX",
+      "avatar": "/Images/av1.png"
+    },
+    {
+      "id": "4",
+      "name": "Ali Hosseini",
+      "email": "hosseini@mail.com",
+      "specialty": "Python",
+      "avatar": "/Images/av3.png"
+    },
+    {
+      "id": "5",
+      "name": "Neda Jafari",
+      "email": "jafari@mail.com",
+      "specialty": "TypeScript",
+      "avatar": "/Images/av2.png"
+    },
+    {
+      "id": "6",
+      "name": "Amir Ebrahimi",
+      "email": "ebrahimi@mail.com",
+      "specialty": "DevOps",
+      "avatar": "/Images/av1.png"
+    },
+    {
+      "id": "7",
+      "name": "Maryam Taheri",
+      "email": "taheri@mail.com",
+      "specialty": "Data Science",
+      "avatar": "/Images/av3.png"
+    },
+    {
+      "id": "8",
+      "name": "Hossein Azimi",
+      "email": "azimi@mail.com",
+      "specialty": "Next.js",
+      "avatar": "/Images/av2.png"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "UI Design Mastery",
+      "price": "115",
+      "instructorId": "3",
+      "thumbnail": "/Images/course-thumbnail-2.png",
+      "status": "draft",
+      "studentsCount": 7,
+      "createdAt": "2026-01-18"
+    },
+    {
+      "id": "5",
+      "title": "Python for Beginners",
+      "price": 110,
+      "instructorId": 4,
+      "thumbnail": "/Images/course-thumbnail-1.png",
+      "status": "published",
+      "studentsCount": 5,
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "6",
+      "title": "TypeScript Complete Guide",
+      "price": 140,
+      "instructorId": 5,
+      "thumbnail": "/Images/course-thumbnail-3.png",
+      "status": "published",
+      "studentsCount": 4,
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "7",
+      "title": "DevOps Essentials",
+      "price": 160,
+      "instructorId": 6,
+      "thumbnail": "/Images/course-thumbnail-1.png",
+      "status": "published",
+      "studentsCount": 3,
+      "createdAt": "2026-01-25"
+    },
+    {
+      "id": "8",
+      "title": "Data Science Bootcamp",
+      "price": 200,
+      "instructorId": 7,
+      "thumbnail": "/Images/course-thumbnail-1.png",
+      "status": "published",
+      "studentsCount": 2,
+      "createdAt": "2026-01-28"
+    },
+    {
+      "id": "9",
+      "title": "Next.js from Scratch",
+      "price": 170,
+      "instructorId": 8,
+      "thumbnail": "/Images/course-thumbnail-3.png",
+      "status": "draft",
+      "studentsCount": 2,
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "10",
+      "title": "Fullstack MERN",
+      "price": 220,
+      "instructorId": 8,
+      "thumbnail": "/Images/course-thumbnail-2.png",
+      "status": "published",
+      "studentsCount": 1,
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": "DWvzCA7yYqw",
+      "title": "React Advanced",
+      "price": "28",
+      "instructorId": 6,
+      "thumbnail": "/Images/course-thumbnail-2.png",
+      "status": "draft",
+      "studentsCount": 4,
+      "createdAt": "2026-05-26"
+    },
+    {
+      "id": "6PPvHOONCTs",
+      "title": "React Beginners",
+      "price": 118,
+      "instructorId": 1,
+      "thumbnail": "/Images/course-thumbnail-3.png",
+      "status": "published",
+      "studentsCount": 0,
+      "createdAt": "2026-06-03"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Student 1",
+      "email": "student1@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "2",
+      "name": "Student 2",
+      "email": "student2@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "3",
+      "name": "Student 3",
+      "email": "student3@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "inactive",
+      "createdAt": "2026-02-03"
+    },
+    {
+      "id": "4",
+      "name": "Student 4",
+      "email": "student4@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-04"
+    },
+    {
+      "id": "5",
+      "name": "Student 5",
+      "email": "student5@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": "6",
+      "name": "Student 6",
+      "email": "student6@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-06"
+    },
+    {
+      "id": "7",
+      "name": "Student 7",
+      "email": "student7@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-07"
+    },
+    {
+      "id": "8",
+      "name": "Student 8",
+      "email": "student8@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "inactive",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "id": "9",
+      "name": "Student 9",
+      "email": "student9@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-09"
+    },
+    {
+      "id": "10",
+      "name": "Student 10",
+      "email": "student10@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "11",
+      "name": "Student 11",
+      "email": "student11@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-11"
+    },
+    {
+      "id": "12",
+      "name": "Student 12",
+      "email": "student12@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-12"
+    },
+    {
+      "id": "13",
+      "name": "Student 13",
+      "email": "student13@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-13"
+    },
+    {
+      "id": "14",
+      "name": "Student 14",
+      "email": "student14@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": "15",
+      "name": "Student 15",
+      "email": "student15@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": "16",
+      "name": "Student 16",
+      "email": "student16@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-16"
+    },
+    {
+      "id": "17",
+      "name": "Student 17",
+      "email": "student17@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "18",
+      "name": "Student 18",
+      "email": "student18@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": "19",
+      "name": "Student 19",
+      "email": "student19@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-19"
+    },
+    {
+      "id": "20",
+      "name": "Student 20",
+      "email": "student20@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-20"
+    },
+    {
+      "id": "21",
+      "name": "Student 21",
+      "email": "student21@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-21"
+    },
+    {
+      "id": "22",
+      "name": "Student 22",
+      "email": "student22@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-22"
+    },
+    {
+      "id": "23",
+      "name": "Student 23",
+      "email": "student23@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-23"
+    },
+    {
+      "id": "24",
+      "name": "Student 24",
+      "email": "student24@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-24"
+    },
+    {
+      "id": "25",
+      "name": "Student 25",
+      "email": "student25@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-25"
+    },
+    {
+      "id": "26",
+      "name": "Student 26",
+      "email": "student26@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-02-26"
+    },
+    {
+      "id": "27",
+      "name": "Student 27",
+      "email": "student27@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-02-27"
+    },
+    {
+      "id": "28",
+      "name": "Student 28",
+      "email": "student28@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-02-28"
+    },
+    {
+      "id": "29",
+      "name": "Student 29",
+      "email": "student29@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "30",
+      "name": "Student 30",
+      "email": "student30@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-02"
+    },
+    {
+      "id": "31",
+      "name": "Student 31",
+      "email": "student31@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-03"
+    },
+    {
+      "id": "32",
+      "name": "Student 32",
+      "email": "student32@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-04"
+    },
+    {
+      "id": "33",
+      "name": "Student 33",
+      "email": "student33@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-05"
+    },
+    {
+      "id": "34",
+      "name": "Student 34",
+      "email": "student34@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-06"
+    },
+    {
+      "id": "35",
+      "name": "Student 35",
+      "email": "student35@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-07"
+    },
+    {
+      "id": "36",
+      "name": "Student 36",
+      "email": "student36@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-08"
+    },
+    {
+      "id": "37",
+      "name": "Student 37",
+      "email": "student37@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-09"
+    },
+    {
+      "id": "38",
+      "name": "Student 38",
+      "email": "student38@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-10"
+    },
+    {
+      "id": "39",
+      "name": "Student 39",
+      "email": "student39@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-11"
+    },
+    {
+      "id": "40",
+      "name": "Student 40",
+      "email": "student40@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-12"
+    },
+    {
+      "id": "41",
+      "name": "Student 41",
+      "email": "student41@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-13"
+    },
+    {
+      "id": "42",
+      "name": "Student 42",
+      "email": "student42@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-14"
+    },
+    {
+      "id": "43",
+      "name": "Student 43",
+      "email": "student43@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-15"
+    },
+    {
+      "id": "44",
+      "name": "Student 44",
+      "email": "student44@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-16"
+    },
+    {
+      "id": "45",
+      "name": "Student 45",
+      "email": "student45@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-17"
+    },
+    {
+      "id": "46",
+      "name": "Student 46",
+      "email": "student46@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "47",
+      "name": "Student 47",
+      "email": "student47@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "48",
+      "name": "Student 48",
+      "email": "student48@mail.com",
+      "avatar": "/Images/av3.png",
+      "status": "active",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "49",
+      "name": "Student 49",
+      "email": "student49@mail.com",
+      "avatar": "/Images/av1.png",
+      "status": "active",
+      "createdAt": "2026-03-21"
+    },
+    {
+      "id": "50",
+      "name": "Student 50",
+      "email": "student50@mail.com",
+      "avatar": "/Images/av2.png",
+      "status": "active",
+      "createdAt": "2026-03-22"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "studentId": 1,
+      "courseId": 1,
+      "amount": 120,
+      "status": "paid",
+      "date": "2026-02-05"
+    },
+    {
+      "id": "2",
+      "studentId": 2,
+      "courseId": 2,
+      "amount": 150,
+      "status": "paid",
+      "date": "2026-02-10"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "title": "New Course Added",
+      "message": "Fullstack MERN course is now available",
+      "date": "2026-02-05"
+    },
+    {
+      "id": "2",
+      "title": "Maintenance",
+      "message": "System maintenance on Friday",
+      "date": "2026-02-07"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
