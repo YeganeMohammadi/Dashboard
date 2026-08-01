@@ -6,7 +6,7 @@ import { SideBarContext } from '../../Context/SideBarContrext';
 
 export default function Navbar() {
   const { logout, user } = useContext(AuthContext)
-  const {toggleOpenSideBar}=useContext(SideBarContext)
+  const { toggleOpenSideBar } = useContext(SideBarContext)
   const [searchExpression, setSearchExpression] = useState('');
   const [showSearch, setShowSearch] = useState(false)
   const navigate = useNavigate()
@@ -17,6 +17,9 @@ export default function Navbar() {
   }
   const handleSearch = (inp) => {
     setSearchExpression(inp)
+    if (searchExpression.length > 0) {
+
+    }
   }
 
   return (
@@ -27,7 +30,7 @@ export default function Navbar() {
       <div>
         <span className='text-white text-[22px] font-bold'>LOGO</span>
       </div>
-      
+
       {/* Serach on Desktop */}
       <div>
         <input
@@ -35,11 +38,11 @@ export default function Navbar() {
           placeholder='search...'
           value={searchExpression}
           className='hidden md:block ring-1 ring-white text-white rounded-full p-2 outline-0'
-          onChange={e=> handleSearch(e.target.value)} />
+          onChange={e => handleSearch(e.target.value)} />
       </div>
 
       {/* Serach on mobile */}
-      
+
       <div className='md:hidden'>
         <FiSearch size={22} className='cursor-pointer' onClick={() => setShowSearch(!showSearch)} />
       </div>
@@ -55,10 +58,10 @@ export default function Navbar() {
           value={searchExpression}
           placeholder='search...'
           className='md:hidden ring-1 ring-white text-white rounded-full p-2 outline-0'
-          onChange={e=> handleSearch(e.target.value)} />
+          onChange={e => handleSearch(e.target.value)} />
       </div>)}
 
-        {/* user section */}
+      {/* user section */}
       <div className='hidden md:flex flex-row-reverse items-center gap-2'>
 
         <img src={user?.avatar} alt="user-avatar" className='w-8 h-8 rounded-full object-cover' />
